@@ -1,3 +1,4 @@
+/* Main body and HTML */
 *{
     outline: 2px solid red;
 }
@@ -10,6 +11,15 @@ body{
     display:flex;
     flex-direction: column;
 }
+a:link, a:visited{
+    text-decoration: none;
+    color:#E5E7EB;
+}
+button{
+    background-color: #3882F6;
+}
+
+/* Header */
 .header{
     display:flex;
     flex-direction: column;
@@ -18,51 +28,75 @@ body{
 }
 .header-top{
     display:flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 .header-bottom{
     display:flex;
+    justify-content: space-between;
 }
 .header-image{
     height: 200px;
     width: 300px;
-}
-.call-to-action-box{
-    display:flex;
-    background-color: #3882F6;
-}
-.call-to-action-text{
-    display:flex;
-    flex-direction: column;
-}
-button{
-    background-color: #3882F6;
-}
-.footer{
-    background-color: #1F2937;
-}
-.center-middle{
-    background-color: #E5E7EB;
-}
-.logo{
-    font-size: 24px;
-    color:#F9FAF8;
-}
-.links{
-    font-size: 18px;
-    color:#E5E7EB;
-}
-.header-info{
-    font-size: 18px;
-    color:#E5E7EB;
 }
 .header-title{
     font-size: 48px;
     color:#F9FAF8;
     font-weight: 900;
 }
+.header-info{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.links{
+    display: flex;
+    font-size: 18px;
+    color:#E5E7EB;
+    list-style-type: none;
+}
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+/* Middle */
+
+/* Pictures */
+
+/* Quote */
 .quote{
     font-size: 36px;
     font-weight: light;
     font-style:italic;
     color:#1F2937
 }
+.center-middle{
+    background-color: #E5E7EB;
+    padding:100px
+}
+
+/* Call to Action */
+.call-to-action-box{
+    display:flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+}
+.call-to-action-text{
+    display:flex;
+    flex-direction: column;
+}
+.center-bottom{
+    padding:50px 150px;
+}
+
+/* Footer */
+.footer{
+    background-color: #1F2937;
+}
+
+
+
+
+
+
+
+
