@@ -1,7 +1,4 @@
 /* Main body and HTML */
-*{
-    /* outline: 2px solid red; */
-}
 body{
     margin: 0;
     width: 100vw;
@@ -144,8 +141,6 @@ button{
 .call-to-action-info{
     font-size:18px;
     font-weight:50;
-}
-.call-to-action-title{
 }
 .center-bottom{
     display:flex;
