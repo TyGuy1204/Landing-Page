@@ -30,21 +30,22 @@ button{
 /* Header */
 .header{/*Complete header*/
     background-color:#1F2937;
+    padding-bottom: 50px;
 }
 .header-top{/*Top section with logo and links*/
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    margin: 0px 100px;
 }
 .header-bottom{/*bottom section with text,button,and image*/
     display:flex;
+    align-items: start;
     justify-content: space-between;
+    margin: 0px 100px;
 }
 /* Bottom left section of header with text and button */
-.header-text{ 
-    display: flex;
-    flex-direction: column;
-}
+
 /* Image in header */
 .header-image{
     width: 500px;
@@ -59,10 +60,12 @@ button{
 /* Smaller text in header */
 .header-info{
     color:#E5E7EB;
+    font-size: 18px;
 }
 /* Links at the top */
 .links{
     display: flex;
+    gap:20px;
     color:#E5E7EB;
 }
 /* Logo(text) at the top */
@@ -76,25 +79,45 @@ button{
 .center-boxes img{
     width:100px;
     height:100px;
-    border: 1px solid #3882F6;
+    border: 2px solid #3882F6;
     border-radius: 8px;
 }
 .center-boxes{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
 }
 .center-top{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px 10px;
+}
+.center-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 /* Quote */
 .quote{
+    
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 50;
 
 }
+.author{
+    font-weight: bold;
+}
 .center-middle{
+    padding:100px 200px;
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content:space-between;
     background-color: #E5E7EB;
 }
 
@@ -102,20 +125,27 @@ button{
 .call-to-action-box{
     display: flex;
     align-items: center;
+    gap:50px;
     justify-content: space-around;
     border-radius: 8px;
     margin:50px;
+    padding:0px 100px;
     width:50%;
     height:50%;
     background-color: #3882F6;
 }
 .call-to-action-text{
+    display:flex;
+    flex-direction: column;
+    gap:0px;
     color:#F9FAF8;
     font-size: 24px;
 }
 .call-to-action-info{
     font-size:18px;
     font-weight:50;
+}
+.call-to-action-title{
 }
 .center-bottom{
     display:flex;
